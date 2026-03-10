@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MENU */
+
+header{
+    background:#2c7be5;
+    padding:15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    text-decoration:underline;
+}
+
+/* BANNER */
+
+.banner{
+    background:url(https://smartmall.com.br/locacoes/wp-content/uploads/2021/06/img_destaque_post_papelaria.jpg) center/cover no-repeat;
+    height:350px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.banner h1{
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+}
+
+/* PRODUTOS */
+
+.produtos{
+    padding:40px;
+    text-align:center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:15px;
+    border-radius:8px;
+}
+
+.card img{
+    width:100%;
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+/* RODAPÉ */
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
